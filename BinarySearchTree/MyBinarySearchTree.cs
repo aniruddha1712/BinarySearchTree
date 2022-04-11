@@ -56,5 +56,9 @@ namespace BinarySearchTree
                 this.rightTree.Display();
             }
         }
+        public void SIze()
+        {
+            Console.WriteLine("\nSize of Binary Tree is: " + (this.leftCount + this.rightCount + 1));
+        }
     }
 }
