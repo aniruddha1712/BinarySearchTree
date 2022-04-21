@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -58,7 +58,7 @@ namespace BinarySearchTree
             }
             Console.Write(this.nodeData.ToString() + " ");
             if (this.rightTree != null)
-            {
+            { 
                 this.rightTree.Display();
             }
         }
