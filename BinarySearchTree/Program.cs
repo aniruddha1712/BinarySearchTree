@@ -30,6 +30,9 @@ namespace BinarySearchTree
 
             binarySearchTree.SIze();
 
+            bool result = binarySearchTree.IfExists(67, binarySearchTree);
+            Console.WriteLine(result);
+
             Console.ReadLine();
         }
     }
