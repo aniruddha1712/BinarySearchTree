@@ -48,7 +48,6 @@ namespace BinarySearchTree
                     this.rightTree.Insert(data);
                     rightCount++;
                 }
-
             }
         }
 
