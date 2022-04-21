@@ -50,7 +50,6 @@ namespace BinarySearchTree
                 }
             }
         }
-
         public void Display()
         {
             if (this.leftTree != null)
