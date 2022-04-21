@@ -28,18 +28,27 @@ namespace BinarySearchTree
                 if (this.leftTree == null)
                 {
                     this.leftTree = new MyBinarySearchTree<T>(data);
+                    leftCount++;
                 }
                 else
+                {
                     this.leftTree.Insert(data);
+                    leftCount++;
+                }
             }
             else
             {
                 if (this.rightTree == null)
                 {
                     this.rightTree = new MyBinarySearchTree<T>(data);
+                    rightCount++;
                 }
                 else
+                {
                     this.rightTree.Insert(data);
+                    rightCount++;
+                }
+
             }
         }
 
@@ -47,13 +56,11 @@ namespace BinarySearchTree
         {
             if (this.leftTree != null)
             {
-                leftCount++;
                 this.leftTree.Display();
             }
             Console.Write(this.nodeData.ToString() + " ");
             if (this.rightTree != null)
             {
-                rightCount++;
                 this.rightTree.Display();
             }
         }
